@@ -3,7 +3,7 @@
 int main()
 {
     int m, n;
-    scan("%d %d", &m, &n);
+    scanf("%d %d", &m, &n);
     char goc_dong_bang = '@' + n - 1;
     for (int i = 1; i <= m; i++)
     {
